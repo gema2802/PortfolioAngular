@@ -1,0 +1,21 @@
+<form class="todo-form" (ngSubmit)="addLista()">
+  <h2>Nueva Tarea</h2>
+
+  <div class="form-group">
+    <label for="description"> Descripción: </label>
+    <input
+    type="text"
+    id="description"
+    name="description"
+    [(ngModel)]="newListaDescription"
+    autocomplete="off"
+    >
+
+  </div>
+  <div class="form-group">
+    <label for="description"> Estado: </label>
+
+
+  </div>
+  <button type="submit">Agregar Tarea</button>
+</form>

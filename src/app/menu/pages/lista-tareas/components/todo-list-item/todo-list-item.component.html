@@ -1,0 +1,15 @@
+<div *ngIf="lista" class="lista">
+<div class="top">
+<p *ngIf="lista.createdAt"> {{lista.createdAt | date }}</p>
+
+<button (click)="(removeLista())">
+  <mat-icon fontIcon="close"></mat-icon>
+</button>
+<div class="bottom">
+<span>
+  {{lista.description}}
+</span>
+</div>
+
+</div>
+</div>

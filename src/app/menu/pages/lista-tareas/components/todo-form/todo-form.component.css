@@ -1,0 +1,19 @@
+.todo-form{
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgb(50, 47, 47);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.form-group{
+
+}
+button{
+  background: transparent;
+  border:none;
+  border: 1px solid #ffffff90;
+}

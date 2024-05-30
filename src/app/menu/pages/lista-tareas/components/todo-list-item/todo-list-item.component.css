@@ -1,0 +1,49 @@
+.lista {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.lista .top p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.lista button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.lista button mat-icon {
+  font-size: 18px;
+  color: #888;
+}
+
+.lista button:hover mat-icon {
+  color: #444;
+}
+
+.lista .bottom {
+  padding-top: 8px;
+}
+
+.lista .bottom span {
+  display: block;
+  color: #333;
+  font-size: 16px;
+}
