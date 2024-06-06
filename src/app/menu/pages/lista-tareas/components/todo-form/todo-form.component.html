@@ -8,12 +8,17 @@
     id="description"
     name="description"
     [(ngModel)]="newListaDescription"
-    autocomplete="off"
-    >
+    autocomplete="off">
 
   </div>
   <div class="form-group">
     <label for="description"> Estado: </label>
+
+    <app-dropdown
+    [options]="statusOptions"
+    [optionSelected]="newListaStatus"
+    (onSelect)="changeStatus($event)">
+    </app-dropdown>
 
 
   </div>

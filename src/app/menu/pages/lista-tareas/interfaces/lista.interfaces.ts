@@ -6,3 +6,7 @@ export interface ListaTareas{
 }
 
 export type ListaStatus = 'empty' | 'in-progress' | 'finished';
+
+export type FilterStatus = ListaStatus | 'all'
+
+export type Orders = 'newest' | 'oldest'

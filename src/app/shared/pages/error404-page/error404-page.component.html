@@ -1,1 +1,8 @@
-<p>error404-page works!</p>
+<div class="error-page">
+  <div class="error-content">
+    <h1>404</h1>
+    <p>Oops! Esta página no existe.</p>
+    <p>Redirigir a la página de inicio en {{ countdown }} segundos...</p>
+    <button (click)="navigateHomeNow()" class="back-home">Volver a la página de inicio ahora</button>
+  </div>
+</div>

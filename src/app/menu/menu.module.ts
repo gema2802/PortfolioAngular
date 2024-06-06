@@ -27,7 +27,7 @@ import { ListaTareasModule } from './pages/lista-tareas/lista-tareas.module';
     MenuRoutingModule,
     MaterialModule,
     BanderasPaisesModule,
-    ListaTareasModule
+    ListaTareasModule,
   ]
 })
 export class MenuModule { }

@@ -1,49 +1,50 @@
 .lista {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 16px;
-  background-color: #f9f9f9;
-  max-width: 400px;
-  margin: 20px auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border: 1px solid #29292f;
+  padding: 1rem;
+  color: #dadada;
+  line-height: 24px;
 }
 
 .lista .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 8px;
-  margin-bottom: 8px;
 }
 
 .lista .top p {
-  margin: 0;
-  color: #555;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
-.lista button {
-  background: none;
-  border: none;
+.lista .top button {
+  background: transparent;
   cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
 }
 
-.lista button mat-icon {
-  font-size: 18px;
-  color: #888;
+.lista .top button img {
+  width: 18px;
+  height: 18px;
 }
 
-.lista button:hover mat-icon {
-  color: #444;
+.lista .top button:hover {
+  transform: scale(1.2);
 }
 
 .lista .bottom {
-  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .lista .bottom span {
-  display: block;
-  color: #333;
-  font-size: 16px;
+  font-size: 14px;
 }

@@ -7,6 +7,10 @@ import { MaterialModule } from '../../../material/material.module';
 import { DatePipe } from './pipes/date.pipe';
 import { TodoFormComponent } from './components/todo-form/todo-form.component';
 import { FormsModule } from '@angular/forms';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { ArrowComponent } from './components/dropdown/components/arrow.component';
+import { TodoFilterComponent } from './components/todo-filter/todo-filter.component';
+import { TodoOrdersComponent } from './components/todo-orders/todo-orders.component';
 
 @NgModule({
   imports: [CommonModule,
@@ -18,14 +22,23 @@ import { FormsModule } from '@angular/forms';
     TodoListComponent,
     TodoListItemComponent,
     DatePipe,
-    TodoFormComponent
+    TodoFormComponent,
+    DropdownComponent,
+    ArrowComponent,
+    TodoFilterComponent,
+    TodoOrdersComponent
+
 
   ],
   declarations: [
     TodoListComponent,
     TodoListItemComponent,
     DatePipe,
-    TodoFormComponent
+    TodoFormComponent,
+    DropdownComponent,
+    ArrowComponent,
+    TodoFilterComponent,
+    TodoOrdersComponent
 
 
   ],

@@ -6,9 +6,15 @@
   <mat-icon fontIcon="close"></mat-icon>
 </button>
 <div class="bottom">
-<span>
+<span
+[ngStyle]="{ 'text-decortation': lista.status === 'finished' ? 'line-through' : 'none'}"
+>
   {{lista.description}}
 </span>
+
+<app-dropdown [options]="statusOptions"
+[optionSelected]="optionSelected"
+(onSelect)="(changeStatus($event))"></app-dropdown>
 </div>
 
 </div>

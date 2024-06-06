@@ -31,4 +31,7 @@ export class TodoFormComponent {
     this.newListaStatus = formOptions[0];
 
   }
+  public changeStatus(newStatus: {value: ListaStatus, name: string}){
+    this.newListaStatus= newStatus;
+  }
 }

@@ -1,0 +1,28 @@
+.inicio-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.inicio-page h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.inicio-page p {
+  font-size: 1.2rem;
+  color: #d5cccc;
+}
+
+.inicio-page button {
+  padding: 10px 20px;
+  background-color: #bd136b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.inicio-page button:hover {
+  background-color: #b30077;
+}
